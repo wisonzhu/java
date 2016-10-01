@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="struts_hibernate:war exploded">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="strut2_hibernate/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="strut2_hibernate" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="sh6" />
+          <element id="library" level="project" name="struts_hibernate" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
